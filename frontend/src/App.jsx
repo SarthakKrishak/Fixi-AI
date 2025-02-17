@@ -24,7 +24,7 @@ function App() {
   async function reviewCode() {
     setLoading(true);
     try {
-      const response = await axios.post("https://fixi-ai-back.vercel.app/ai/get-review", {
+      const response = await axios.post("https://ai-code-reviewer-omega.vercel.app/ai/get-review", {
         code,
         language: "javascript", // Default language set to JavaScript
       });
