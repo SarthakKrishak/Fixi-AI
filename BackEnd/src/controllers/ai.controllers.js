@@ -2,12 +2,12 @@ const generateContent = require("../serivces/ai.service");
 
 
 
-module.exports.getResponse = async (req, res) => {
-    const prompt = req.body.prompt;
-    if (!prompt) {
+module.exports.getReview = async (req, res) => {
+    const code = req.body.code;
+    if (!code) {
         res.status(400).send({ message: "Prompt is required" });
     }
 
-    const response = await generateContent(prompt);
+    const response = await generateContent(code);
     res.send(response)
 }
