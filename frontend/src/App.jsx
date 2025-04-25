@@ -33,7 +33,7 @@ function App() {
     setLoading(true);
     try {
       const response = await axios.post(
-        "https://ai-code-reviewer-omega.vercel.app/",
+        "https://ai-code-reviewer-omega.vercel.app/ai",
         {
           code,
           language: "javascript", // Default language set to JavaScript
