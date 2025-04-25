@@ -1,7 +1,5 @@
 const generateContent = require("../serivces/ai.service");
 
-
-
 module.exports.getReview = async (req, res) => {
     const code = req.body.code;
     if (!code) {
