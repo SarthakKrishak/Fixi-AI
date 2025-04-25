@@ -49,6 +49,7 @@ const model = genAI.getGenerativeModel({
             • ❌ Missing error handling for failed API calls.
 
         ✅ Recommended Fix:
+        
         \`\`\`javascript
         async function fetchData() {
             try {
@@ -85,7 +86,9 @@ async function generateContent(codeSnippet) {
         🔍 Issues:
         • List issues with the above code (logical, security, readability, performance, etc.)
 
+        
         ✅ Recommended Fix:
+
         \`\`\`${language}
         (Improved version of the code)
         \`\`\`
