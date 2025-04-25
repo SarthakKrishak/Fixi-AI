@@ -2,6 +2,12 @@
 
 AI Code Reviewer is a web-based application that leverages Artificial Intelligence (AI) to review and provide feedback on code. The application allows users to input their code, submit it for review, and view AI-generated suggestions for improvement. It also keeps a history of previous reviews for easy reference and management.
 
+## 🌐 Live Demo 
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=vercel)](https://fixi-ai.vercel.app/)
+
+**The project is live! Visit:** [https://fixi-ai.vercel.app/](https://fixi-ai.vercel.app/)
+
 ## Features
 
 - **Code Editor**: A simple, interactive code editor that supports syntax highlighting for JavaScript (can be extended to support other languages).
@@ -44,7 +50,7 @@ Follow the steps below to set up and run the project locally:
 Clone the repository to your local machine using Git:
 
 ```bash
-git clone https://github.com/your-username/ai-code-reviewer.git
+git clone https://github.com/SarthakKrishak/Fixi-AI.git
 ```
 
 ### 2. Install Dependencies
