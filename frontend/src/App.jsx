@@ -36,7 +36,7 @@ function App() {
         "https://ai-code-reviewer-omega.vercel.app/ai/get-review",
         {
           code,
-          language: "javascript", // Default language set to JavaScript
+          language: "javascript",
         }
       );
 
